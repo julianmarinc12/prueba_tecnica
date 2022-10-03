@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(31, 27, 27);
+}
+
+div{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.Container-table{
+  background-color: rgb(68, 64, 64);
+  border: 1px;
+  border-radius: 25px;
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.container-form{
+  background-color: rgb(68, 64, 64);
+  border: 1px;
+  border-radius: 25px;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  padding-bottom: 25px;
+  color: azure;
+  margin-left: 25px;
+}
+
+.info-table{
+  color: azure;
+}
+
+
+.item-encabezados{
+  color:azure;
+}
+
+th{
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 20px;
+  font-size: large;
+}
+td{
+
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: large;
+}
+hr{
+  width: 90%;
+}
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.titulo{
+  display: flex;
+  flex-direction: row;
+  color: azure;
+  text-align: start;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.fa-minus{
+  color: red;
+}
+
+.fa-plus{
+  color: green;
+  text-align: end;
+  margin-left: 250px;
+}
+
+.textarea{
+  
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+.input-id{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.des{
+  padding-left: 50px;
+}
+.id-i{
+  padding-left: 70px;
+}
+.tex{
+  
+  margin-left: 50px;
+}
+.imp{
+  margin-left: 91px;
+}
+
+
